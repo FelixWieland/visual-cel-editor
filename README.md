@@ -1,6 +1,6 @@
 # Visual-CEL-Editor
 
-# Plans
+## Plans
 - Create a visual Editor for the [CEL language](https://github.com/google/cel-go)
 - Compiler from CEL -> Rete-AST
 - Compiler from Rete-AST to CEL
