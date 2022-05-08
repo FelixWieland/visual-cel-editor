@@ -13,7 +13,7 @@ function BasicControl(props: any) {
     }, [props])
 
     return (
-        null
+        <input name={props.name} />
     );
 }
 

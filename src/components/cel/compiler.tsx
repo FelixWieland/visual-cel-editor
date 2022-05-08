@@ -40,7 +40,7 @@ const sockets = {} as Record<Type, Socket>
 
 export function initTypes(t: typeof types) {
     t.forEach(type => {
-        sockets[type] = new Rete.Socket("Number value")
+        sockets[type] = new Rete.Socket(type)
     })
 } 
 
