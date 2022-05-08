@@ -1,4 +1,3 @@
-import React, { useCallback, useEffect, useState } from "react";
 import { Control } from "rete";
 
 export class CustomControl extends Control {
